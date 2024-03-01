@@ -1,7 +1,7 @@
 import { getProducts } from "./utils/api.js";
 
 const renderCards = async() => {
-    const container = document.querySelector('.contenedor')
+    const container = document.querySelector('.card-container')
     const datos = await getProducts()
     if(datos){
         datos.forEach(item => {
