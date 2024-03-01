@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .card {
@@ -43,20 +43,5 @@
 }
 
 .heading:hover {
-    cursor: pointer;
-}
-
-.author {
-    color: gray;
-    font-weight: 400;
-    font-size: 11px;
-    padding-top: 20px;
-}
-
-.name {
-    font-weight: 600;
-}
-
-.name:hover {
     cursor: pointer;
 }
