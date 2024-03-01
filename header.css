@@ -21,7 +21,8 @@ header h1 {
     line-height: 10px;
     text-transform: uppercase;
     position: relative;
-    top: 40px; left: 40px;
+    top: 40px;
+    left: 40px;
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -30,12 +31,13 @@ header h2 {
     color: #fff;
     font-size: 30px;
     position: relative;
-    top: 40px; left: 40px;
+    top: 40px;
+    left: 40px;
 }
 
 header nav {
     position: absolute;
-    
+
     bottom: 0;
     left: 0;
     width: 100%;
@@ -51,19 +53,30 @@ header nav a {
     text-decoration: none;
     border-radius: 2px;
     position: relative;
-    top: -7px; left: -300px;
-    
+    top: -7px;
+    left: -300px;
 }
 
 header nav a:hover {
     box-shadow: 0 0 0 1px #fff;
-    
+}
+@media screen and (max-width: 768px) {
+    header nav a {
+        color: #fff;
+        display: inline;
+        line-height: 1;
+        text-decoration: none;
+        position: relative;
+        font-size: 20px;
+        top: 45px;
+        left: -180px;
+    }
 }
 
 form {
     position: absolute;
-    top: 10px; left: 20%;
-    
+    top: 10px;
+    left: 20%;
 }
 .filter {
     display: inline-block;
