@@ -10,10 +10,9 @@ const renderCards = async() => {
                 <div class="card-image">
                     <img src=${item.image} />
                 </div>
-                <div class="name">Name PlaceHolder</div>
+                <div class="name">${item.title}</div>
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    ${item.description}
                 </div>
             </div>
             `
